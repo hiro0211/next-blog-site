@@ -4,7 +4,6 @@ import { getAllArticles } from "@/blogAPI";
 
 export default async function Home() {
   const articles = await getAllArticles();
-  console.log(articles);
 
   return (
     <div className="md:flex">
