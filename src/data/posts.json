@@ -17,6 +17,30 @@
       "title": "Post 3",
       "content": "Next.jsは、Reactベースのフレームワークであり、パフォーマンスとSEOの向上を目的として、さまざまなレンダリング方法を提供します。本記事では、Next.jsで利用可能なレンダリング方法について詳しく解説します。\n\nレンダリングの種類\n\nNext.jsでは、主に以下の3種類のレンダリング方法をサポートしています。\n\nサーバーサイドレンダリング (SSR: Server-Side Rendering)\n\n静的サイト生成 (SSG: Static Site Generation)\n\nクライアントサイドレンダリング (CSR: Client-Side Rendering)\n\nこれらに加え、ISR (Incremental Static Regeneration) のような高度な技術も利用可能です。それぞれの特徴を見ていきましょう。\n\n1. サーバーサイドレンダリング (SSR)\n\nサーバーサイドレンダリングは、リクエストごとにサーバーでページを生成し、クライアントにHTMLを返す方式です。",
       "created_at": "2021-10-13"
+    },
+    {
+      "id": "Esldd",
+      "title": "Next-js AppRouterについて",
+      "content": "AppRouterの解説",
+      "createdAt": "2025-01-18T14:59:09.112Z"
+    },
+    {
+      "id": "Udemy-AppRouter",
+      "title": "Next-js AppRouterについて",
+      "content": "Next-js AppRouterについて解説",
+      "createdAt": "2025-01-18T14:59:40.657Z"
+    },
+    {
+      "id": "Next-jsStudy",
+      "title": "マイブログ作成",
+      "content": "マイブログ作成の解説",
+      "createdAt": "2025-01-18T15:03:28.702Z"
+    },
+    {
+      "id": "test",
+      "title": "test",
+      "content": "test",
+      "createdAt": "2025-01-18T15:09:56.691Z"
     }
   ]
 }
