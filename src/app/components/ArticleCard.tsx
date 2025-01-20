@@ -3,11 +3,11 @@ import Image from "next/image";
 import React from "react";
 import { Article } from "@/types";
 
-type ArticleListProps = {
+type ArticleCardProps = {
   article: Article;
 };
 
-const ArticleCard = ({ article }: ArticleListProps) => {
+const ArticleCard = ({ article }: ArticleCardProps) => {
   return (
     <div>
       <article className="flex flex-col shadow my-4" key={article.id}>
