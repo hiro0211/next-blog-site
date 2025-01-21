@@ -18,7 +18,7 @@ const CreateArticle = () => {
     setLoading(true);
 
     // await createArticle(id, title, content);
-    const newArticle = await fetch(`${API_URL}/api`, {
+    const newArtilce = await fetch(`${API_URL}/api/blog`, { 
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -27,7 +27,7 @@ const CreateArticle = () => {
     });
 
     console.log("new article");
-    console.log(newArticle);
+    console.log(newArtilce);
 
     setLoading(false);
     router.push("/");
