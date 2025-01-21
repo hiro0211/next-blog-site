@@ -21,7 +21,7 @@ export async function POST(req: Request, res: Response) {
 
   const { data, error } = await supabase
     .from("posts")
-    .insert([{ id, title, content, created_at: new Date().toISOString() }]);
+    .insert([{ id, title, content, createdAt: new Date().toISOString() }]);
 
   if (error) {
     return NextResponse.json(error);
