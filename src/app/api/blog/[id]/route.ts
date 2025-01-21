@@ -55,7 +55,7 @@ export async function GET(req: Request, res: Response) {
 }
 
 export async function DELETE(req: Request, res: Response) {
-  const id = req.url?.split("/api/")[1];
+  const id = req.url?.split("/blog/")[1];
 
   const { error } = await supabase.from("posts").delete().eq("id", id);
 
